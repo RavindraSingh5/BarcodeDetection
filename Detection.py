@@ -3,7 +3,7 @@
 # python detect_barcode.py --video video/barcode_example.mov
 
 # import the necessary packages
-from pyimagesearch import simple_barcode_detection
+import numpy as np
 import argparse
 import cv2
 
